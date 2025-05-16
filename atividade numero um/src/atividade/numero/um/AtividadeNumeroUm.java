@@ -28,7 +28,7 @@ public class AtividadeNumeroUm {
     }
 
     public static boolean exercicio1(int nr1, boolean nr6, int nr2, int nr3, int nr4) {
-        return true;
+        return nr1 + nr2 + nr3 == nr4;
 
     }
 
