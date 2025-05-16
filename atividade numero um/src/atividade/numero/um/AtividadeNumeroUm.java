@@ -15,9 +15,21 @@ public class AtividadeNumeroUm {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        System.out.println("teste");
-        
+
+        int nr1, nr2, nr3, nr4, nr5;
+
+        nr1 = 1;
+        nr2 = 2;
+        nr3 = 3;
+        nr4 = 6;
+
+        boolean nr6 = exercicio1(nr1, true, nr2, nr3, nr4);
+        System.out.println(nr6);
     }
-    
+
+    public static boolean exercicio1(int nr1, boolean nr6, int nr2, int nr3, int nr4) {
+        return true;
+
+    }
+
 }
